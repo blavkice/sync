@@ -1,5 +1,7 @@
 # sync
-simple python script that synchronizes files in 2 folders.
-just insert the first folder and the second.
+Simple python script that synchronizes files in 2 folders.
+It checks MD5 of equivalent files and if it's the same it does nothing; if different, it copies the newer one.
+Just insert the first folder path and the second.
 "" are accepted.
-WINDOWS ONLY
+
+FOR NOW TESTED ON WINDOWS ONLY
